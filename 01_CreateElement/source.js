@@ -1,4 +1,17 @@
 //creating the tree
+
+/*
+<div class="root">
+  <div class="child1">
+    <h1>Heading1</h1>
+    <h2>Heading2</h2>
+  </div>
+  <div class="child2">
+    <h1>Heading1</h1>
+    <h2>Heading2</h2>
+  </div>
+</div>
+*/
 const heading = React.createElement("div", { id: "root" }, [
   React.createElement("div", { id: "child1" }, [
     React.createElement("h1", {}, "heading1"),
